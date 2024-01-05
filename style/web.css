@@ -24,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav li {
@@ -47,4 +48,17 @@ nav a {
     font-style: normal;
     font-weight: 700;
     padding: 15px 30px;
+}
+.headere{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.profile{
+    width: 500px;
+}
+.banner-contant{
+    
 }
