@@ -168,36 +168,62 @@ main section {
     font-weight: 700;
     margin-bottom: 10px;
 }
- 
-.resume-containar{
+
+.resume-containar {
     display: flex;
     gap: 50px;
 }
-.resume-item-description{
+
+.resume-item-description {
     color: #757575;
 }
-.resume-item-institute{
+
+.resume-item-institute {
     color: #757575;
     margin-bottom: 20px;
     margin-top: 10px;
 }
-.resume-item-title{
-    color:  #474747;
-font-size: 25px;
-font-weight: 700;
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
 }
-.resume-containar hr{
+
+.resume-containar hr {
     margin: 30px;
 }
-.DownloadCV{
+
+.DownloadCV {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer style */
 
-footer{
+footer {
     display: flex;
     background: #FFF8F3;
     margin-top: 100px;
-    padding:130px 200px;
+    padding: 130px 200px;
+    gap: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+.socal-links a{
+        margin-right: 25px;
+}
+
+.contact input[type="text"],input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0px;
+    width: 100%;
 }
